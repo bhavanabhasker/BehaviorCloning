@@ -6,7 +6,7 @@ DNN for self driving car to predict steering angles from the images
 [image1]: ./examples/Nvidia_model.png "Model Visualization"
 [image2]: ./examples/center.jpg 
 [image3]: ./examples/rec_center.jpg "Recovery Image"
-[image4]: ./examples/rec_left.jpg "Recovery Image"
+[image4]: ./examples/recov_left.jpg "Recovery Image"
 [image5]: ./examples/rec_right.jpg "Recovery Image"
 [image6]: ./examples/orig.png   "Normal Image"
 [image7]: ./examples/flip.png "Flipped Image"
