@@ -3,13 +3,13 @@ DNN for self driving car to predict steering angles from the images
 
 [//]: # (Image References)
 
-[image1]: ./examples/placeholder.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
-[image4]: ./examples/placeholder_small.png "Recovery Image"
-[image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/placeholder_small.png "Normal Image"
-[image7]: ./examples/placeholder_small.png "Flipped Image"
+[image1]: ./examples/Nvidia_model.png "Model Visualization"
+[image2]: ./examples/center.jpg 
+[image3]: ./examples/rec_center.jpg "Recovery Image"
+[image4]: ./examples/rec_left.jpg "Recovery Image"
+[image5]: ./examples/rec_right.jpg "Recovery Image"
+[image6]: ./examples/orig.jpg   "Normal Image"
+[image7]: ./examples/flipped.jpg "Flipped Image"
 
 **Behavioral Cloning Project**
 
