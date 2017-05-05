@@ -8,8 +8,8 @@ DNN for self driving car to predict steering angles from the images
 [image3]: ./examples/rec_center.jpg "Recovery Image"
 [image4]: ./examples/rec_left.jpg "Recovery Image"
 [image5]: ./examples/rec_right.jpg "Recovery Image"
-[image6]: ./examples/orig.jpg   "Normal Image"
-[image7]: ./examples/flipped.jpg "Flipped Image"
+[image6]: ./examples/orig.png   "Normal Image"
+[image7]: ./examples/flip.png "Flipped Image"
 
 **Behavioral Cloning Project**
 
