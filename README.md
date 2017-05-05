@@ -1,6 +1,16 @@
 # BehaviorCloning
 DNN for self driving car to predict steering angles from the images 
 
+[//]: # (Image References)
+
+[image1]: ./examples/placeholder.png "Model Visualization"
+[image2]: ./examples/placeholder.png "Grayscaling"
+[image3]: ./examples/placeholder_small.png "Recovery Image"
+[image4]: ./examples/placeholder_small.png "Recovery Image"
+[image5]: ./examples/placeholder_small.png "Recovery Image"
+[image6]: ./examples/placeholder_small.png "Normal Image"
+[image7]: ./examples/placeholder_small.png "Flipped Image"
+
 **Behavioral Cloning Project**
 
 The goals / steps of this project are the following:
@@ -70,4 +80,39 @@ strategy to extract images:
 3. one lap focusing on driving smoothly around curves
 
 At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
+
+
+### Final Model Architecture
+
+The final model architecture  consisted of a convolution neural network with the following layers and layer sizes as shown in the image:
+
+![alt text][image1]
+
+#### Creation of the Training Set & Training Process
+
+To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
+
+![alt text][image2]
+
+I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn not steer off the road. These images show what a recovery looks like starting :
+
+![alt text][image3]
+![alt text][image4]
+![alt text][image5]
+
+Then I repeated this process on track two in order to get more data points.
+
+To augment the data sat, I also flipped images and angles thinking that this would create more images for training. For example, here is an image that has then been flipped:
+
+![alt text][image6]
+![alt text][image7]
+
+ I then preprocessed this data by following :
+ 1. Normalizing the images
+ 2. Cropping the images 
+ 3. Flipping the images 
+
+I finally randomly shuffled the data set and put 10% of the data into a validation set. 
+
+I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 5 . I used an adam optimizer so that manually training the learning rate wasn't necessary.
 
